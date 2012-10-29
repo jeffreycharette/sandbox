@@ -1,0 +1,16 @@
+exports.env = {
+    // the default env will be used when you just do "kanso push"
+    'default': {
+        db: 'http://localhost:5984/forms' 
+    },
+    // you can also define named environments this one will 
+    // be used when you do "kanso push production"
+    'production': {
+        db: 'http://projecta.iriscouch.com/production-cms',        
+        // tells the module package to minify modules.js
+        minify: true
+        // useful when running behind a virtual host and 
+        // you want to force the baseURL to something
+        // baseURL: '/foo'
+    }
+};

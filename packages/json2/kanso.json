@@ -1,0 +1,17 @@
+{
+    "name": "json2",
+    "version": "0.0.2",
+    "categories": ["utils"],
+    "maintainers": [
+        {
+            "name": "Pete Bacon Darwin",
+            "url": "https://github.com/petebacondarwin/kanso-json2"
+        }
+    ],
+    "url": "http://www.json.org/js.html",
+    "modules": "json2.js",
+    "dependencies": {
+        "modules": ">=0.0.8"
+    },
+    "description": "This file creates a CommonJS module, containing the JSON2 library, which exports two methods: stringify and parse."
+}
