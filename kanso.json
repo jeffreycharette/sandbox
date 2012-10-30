@@ -1,30 +1,16 @@
 {
-    "name": "my_form",
-    "version": "0.0.1",
-    "description": "My new CouchApp",
-    "load": "lib/app",
-    "modules": "lib",
-    "attachments": "static",
-    "handlebars": {
-        "templates": "templates"
-    },
-    "duality": {
-        "base_template": "base.html"
-    },
-    "dependencies": {
-        "modules": null,
-        "properties": null,
-    		"backbone": null,
-        "attachments": null,
-        "settings": null,
-        "duality": null,
-        "handlebars": null,
-        "handlebars-helpers": null,
-        "duality-handlebars": null,
-        "couchtypes": null,
-				"async": null,
-				"underscore": null,
-				"underscore-string": null,
-				"json2": null
-    }
+	"name": "zaks-example-app",
+	"version": "0.0.1",
+	"description": "testing stuff",
+	"attachments": ["index.html"],
+	"modules": ["lib"],
+	"load": "lib/app",
+	"dependencies": {
+		"couchtypes":null,
+		"attachments": null,
+		"modules":null,
+		"properties":null,
+		"db":null,
+		"jquery":null
+	}
 }
