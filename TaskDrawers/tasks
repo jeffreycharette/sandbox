@@ -1,0 +1,23 @@
+db.tasks.insert({
+	_id: ObjectId,
+	usr: ObjectId,
+	ts: TIME,
+	title: 'My Goal',
+	desc: 'Description',
+	due: TIME,
+	subgoalsTotal: NUM,
+	subgoals: [ ObjectId, ObjectId, ObjectId ],
+	commentsTotal: NUM,
+	comments: [ ObjectId, ObjectId, ObjectId ]
+})
+
+
+{
+		"title": "Splash / Sign-up Modal",
+		"at": "Cory",
+		"est": "1.5 hr",
+		"cur": 0,
+		"info": "",
+		"comments": [],
+		ts: ""
+	},

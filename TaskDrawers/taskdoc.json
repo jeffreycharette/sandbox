@@ -1,0 +1,11 @@
+{
+   "_id": "0eaab7c233459d75cf0ed719e90127ed",
+   "_rev": "3-65a88cb5347715727ee739a34a980d6b",
+   "title": "FirstTask",
+   "type": "task",
+   "assignedto": "",
+   "estimate": 60,
+   "due": 120,
+   "info": "stuff to do",
+   "subtasks": ""
+}
